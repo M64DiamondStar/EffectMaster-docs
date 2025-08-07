@@ -1,0 +1,93 @@
+:root {
+    --ifm-color-primary: #7a3891;
+    --ifm-color-primary-dark: #6b1583;
+    --ifm-color-primary-darker: #5d1573;
+    --ifm-color-primary-darkest: #58116e;
+    --ifm-color-primary-light: #7d2698;
+    --ifm-color-primary-lighter: #923aad;
+    --ifm-color-primary-lightest: #9a5dad;
+    --ifm-code-font-size: 95%;
+    --ifm-color-bright: #000;
+    --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='dark'] {
+    --ifm-color-primary: #a682b9;
+    --ifm-color-primary-dark: #9b6bb4;
+    --ifm-color-primary-darker: #a065be;
+    --ifm-color-primary-darkest: #803ba4;
+    --ifm-color-primary-light: #dcbdec;
+    --ifm-color-primary-lighter: #e4ccf0;
+    --ifm-color-primary-lightest: #eee9ef;
+    --ifm-color-bright: #fff;
+    --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+html {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Optional section label */
+.separator {
+    margin-top: 1.5em;
+    padding-left: var(--ifm-menu-link-padding-horizontal);
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 0.875rem;
+}
+
+/* Sidebar spacing & remove scrollbar */
+.theme-doc-sidebar-container {
+    border-right: none !important;
+}
+
+.navbar-sidebar,
+.menu,
+.menu__list {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE/Edge */
+}
+
+.navbar-sidebar::-webkit-scrollbar,
+.menu::-webkit-scrollbar,
+.menu__list::-webkit-scrollbar {
+    display: none; /* Chrome, Safari */
+}
+
+/* Sidebar links */
+.menu__link {
+    font-size: 0.875rem;
+}
+
+.theme-doc-sidebar-menu .menu__link {
+    color: #949494;
+}
+
+.theme-doc-sidebar-menu .menu__link:hover {
+    color: var(--ifm-color-bright);
+}
+
+.theme-doc-sidebar-menu .menu__link--active {
+    color: var(--ifm-color-primary-dark);
+    font-weight: bold;
+}
+
+li > a.menu__link {
+    justify-content: flex-start;
+}
+
+/* Optional: remove navbar shadow if you want a flatter look */
+.navbar {
+  box-shadow: none !important;
+}
+
+
+
+/*
+  Custom CSS for the doc content
+ */
+.theme-doc-markdown h1 .IIcon {
+  color: var(--ifm-color-primary);
+}

@@ -1,0 +1,12 @@
+.headerSpacing {
+    margin-bottom: 0.3rem;
+    color: var(--ifm-color-bright);
+}
+
+.icon {
+    color: var(--ifm-color-primary-dark);
+}
+
+.subHeader {
+    color: var(--ifm-color-primary-light);
+}
