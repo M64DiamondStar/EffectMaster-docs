@@ -4,7 +4,7 @@ hide_title: true
 ---
 
 <img
-src={require('./assets/docs_home.png').default}
+src={require('./assets/docs_home.png?v=1').default}
 alt="EffectMaster Docs Banner"
 />
 
