@@ -59,7 +59,7 @@ description: Moves particles over a specific path.
 
 ## Preview
 
-![Particle Path Preview](../assets/previews/particle-path.gif)
+![Particle Path Preview](../assets/previews/particle_path.gif)
 
 ---
 

@@ -31,7 +31,7 @@ Delay: 0
 
 ## Preview
 
-![Falling Block Preview](../assets/previews/falling-block.gif)
+![Falling Block Preview](../assets/previews/falling_block.gif)
 
 ## YouTube Tutorial
 

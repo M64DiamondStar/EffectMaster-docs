@@ -47,7 +47,7 @@ description: Emits falling blocks like the Fountain effect, but follows a path.
 
 ## Preview
 
-![Fountain Path Preview](../assets/previews/fountain-path.gif)
+![Fountain Path Preview](../assets/previews/fountain_path.gif)
 
 ---
 

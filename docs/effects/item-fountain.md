@@ -39,7 +39,7 @@ description: The same as the Fountain effect, but with dropped items instead of 
 
 ## Preview
 
-![Item Fountain Preview](../assets/previews/item-fountain.gif)
+![Item Fountain Preview](../assets/previews/item_fountain.gif)
 
 ---
 

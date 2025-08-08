@@ -41,7 +41,7 @@ Delay: 0
 
 ## Preview
 
-![Fill Block Preview](../assets/previews/fill-block.gif)
+![Fill Block Preview](../assets/previews/fill_block.gif)
 
 ## Youtube Tutorial
 

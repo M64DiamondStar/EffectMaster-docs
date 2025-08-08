@@ -47,7 +47,7 @@ description: The same as the Fountain Path effect, but with dropped items instea
 
 ## Preview
 
-![Item Fountain Path Preview](../assets/previews/item-fountain-path.gif)
+![Item Fountain Path Preview](../assets/previews/item_fountain_path.gif)
 
 ---
 

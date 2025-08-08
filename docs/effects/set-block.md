@@ -33,7 +33,7 @@ description: Sets a block, comparable with the /setblock command.
 
 ## Preview
 
-![Set Block Preview](../assets/previews/set-block.gif)
+![Set Block Preview](../assets/previews/set_block.gif)
 
 ---
 

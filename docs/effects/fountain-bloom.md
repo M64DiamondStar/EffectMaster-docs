@@ -37,7 +37,7 @@ description: A beautiful fountain in the shape of a bloom.
 
 ## Preview
 
-![Fountain Bloom Preview](../assets/previews/fountain-bloom.gif)
+![Fountain Bloom Preview](../assets/previews/fountain_bloom.gif)
 
 ---
 

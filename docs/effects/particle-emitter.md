@@ -44,7 +44,7 @@ description: Emits particles during a set amount of time.
 
 ## Preview
 
-![Particle Emitter Preview](../assets/previews/particle-emitter.gif)
+![Particle Emitter Preview](../assets/previews/particle_emitter.gif)
 
 ---
 

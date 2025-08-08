@@ -49,7 +49,7 @@ Delay: 0
 
 ## Preview
 
-![Item Fountain Line Preview](../assets/previews/item-fountain-line.gif)
+![Item Fountain Line Preview](../assets/previews/item_fountain_line.gif)
 
 ## Youtube Tutorial
 

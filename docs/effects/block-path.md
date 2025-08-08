@@ -35,7 +35,7 @@ description: The same as the Fountain Path effect, but with solid blocks which w
 
 ## Preview
 
-![Block Path](../assets/previews/block-path.gif)
+![Block Path](../assets/previews/block_path.gif)
 
 ## YouTube Tutorial
 

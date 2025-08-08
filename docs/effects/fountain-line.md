@@ -53,7 +53,7 @@ to fill them.
 
 ## Preview
 
-![Fountain Line](../assets/previews/fountain-line.gif)
+![Fountain Line](../assets/previews/fountain_line.gif)
 
 ---
 

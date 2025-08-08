@@ -35,7 +35,7 @@ description: Replaces the chosen block with another block for a set amount of ti
 
 ## Preview
 
-![Replace Fill Preview](../assets/previews/replace-fill.gif)
+![Replace Fill Preview](../assets/previews/replace_fill.gif)
 
 ---
 

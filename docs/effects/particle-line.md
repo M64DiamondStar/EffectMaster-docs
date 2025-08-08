@@ -59,7 +59,7 @@ description: Moves particles from one location straight to another one.
 
 ## Preview
 
-![Particle Line Preview](../assets/previews/particle-line.gif)
+![Particle Line Preview](../assets/previews/particle_line.gif)
 
 ---
 

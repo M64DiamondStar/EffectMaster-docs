@@ -35,7 +35,7 @@ description: A dancing fountain. This is almost the same as the Fountain effect,
 
 ## Preview
 
-![Fountain Dancing Preview](../assets/previews/fountain-dancing.gif)
+![Fountain Dancing Preview](../assets/previews/fountain_dancing.gif)
 
 ---
 

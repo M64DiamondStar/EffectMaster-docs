@@ -39,7 +39,7 @@ import TabItem from '@theme/TabItem';
 
 ## Preview
 
-![Block Line Preview](../assets/previews/block-line.gif)
+![Block Line Preview](../assets/previews/block_line.gif)
 
 ## YouTube Tutorial
 
