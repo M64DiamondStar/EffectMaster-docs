@@ -87,6 +87,12 @@ const config = {
           },
         ],
       },
+      themeConfig: {
+        colorMode: {
+          defaultMode: 'dark',
+          respectPrefersColorScheme: true,
+        }
+      },
       /*footer: {
         style: 'dark',
         links: [
