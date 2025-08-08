@@ -1,8 +1,13 @@
 ---
 description: A great plugin to create animated armor stands with!
+hide_title: true
 ---
 
-# Animatronics
+<DocHeading
+    icon="ri:walk-line"
+    title="Animatronics Integration"
+    description="A great plugin to create animated armor stands with!">
+</DocHeading>
 
 This plugin simply allows you to use Animatronics and Animatronic Groups in your shows! You can check out
 the [Animatronic](../effects/animatronic.md "mention")

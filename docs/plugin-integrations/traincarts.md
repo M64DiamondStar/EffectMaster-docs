@@ -1,8 +1,13 @@
 ---
 description: The best plugin to create awesome rides with!
+hide_title: true
 ---
 
-# TrainCarts
+<DocHeading
+    icon="lucide:train-track"
+    title="TrainCarts Integration"
+    description="The best plugin to create awesome rides with!">
+</DocHeading>
 
 ## General Sign
 
