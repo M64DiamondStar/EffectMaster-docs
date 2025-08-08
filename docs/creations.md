@@ -18,7 +18,7 @@ Beautiful fountains created by **Kenai\_Redstone** from [CircoAC](https://circoa
 
 * Fountain
 
-![Fountain effect by Kenai\_Redstone from CircoAC](./assets/circoac_fountain.gif) <sub>Made by Kenai\_Redstone
+![Fountain effect by Kenai\_Redstone from CircoAC](https://i.imgur.com/oKjJfZP.gif) <sub>Made by Kenai\_Redstone
 from [CircoAC](https://circoac.com/)</sub>
 
 ---
@@ -33,7 +33,7 @@ A cool animated fountain by **frankstripod** from [FranksLaboratory](https://dis
 * Particle Path
 * Set Block
 
-![Fountain Hop by frankstripod](./assets/frankslab_fountain_hop.gif) <sub>Made by frankstripod
+![Fountain Hop by frankstripod](https://i.imgur.com/25OZdjj.gif) <sub>Made by frankstripod
 from [FranksLaboratory](https://discord.gg/RJhb9ar)</sub>
 
 ---
@@ -46,22 +46,8 @@ Some wild effects created by **frankstripod** from [FranksLaboratory](https://di
 
 * Particle Path
 
-![Skittles Store effect](./assets/frankslab_skittle.gif) <sub>Made by frankstripod
+![Skittles Store effect](https://i.imgur.com/Eb84DvI.gif) <sub>Made by frankstripod
 from [FranksLaboratory](https://discord.com/invite/RJhb9ar)</sub>
-
----
-
-## 🔮 Magical Crystal
-
-An enchanted crystal effect that seems to glow with magic...
-
-**Effects used:**
-
-* Particle Path
-* Particle Emitter
-
-![Magical Crystal effect](./assets/ingeniamc_crystal.gif) <sub>Made by M64DiamondStar
-from [IngeniaMC](https://discord.gg/qv2vsAsDs8)</sub>
 
 ---
 
@@ -81,10 +67,3 @@ Created by **@platydave** for [beaconsquest.net](https://www.beaconsquest.net)
 
 Do you want to **share your own creations** or promote a cool show you made with EffectMaster?
 Come hang out and post them in our [Discord server](https://discord.com/invite/Scv9afJwXp)!
-
----
-
-> ✅ **Note:** You’ll need to replace `https://example.com/...` image links with your final asset URLs if you're moving
-them out of Dropbox/GitBook.
-
-Would you like me to batch rename or optimize your image filenames/paths for a public-facing GitHub/Docusaurus repo?
