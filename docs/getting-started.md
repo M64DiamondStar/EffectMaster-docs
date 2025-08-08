@@ -27,7 +27,7 @@ To use EffectMaster, you’ll need:
 2. Navigate to your server’s `plugins` folder.
 3. Upload the `EffectMaster.jar` file.
 4. Restart your server.
-5. That’s it! You’re ready to [create your first show »](creating-your-first-show.md)
+5. That’s it! You’re ready to [create your first show »](./getting-started/creating-your-first-show.md)
 
 ---
 

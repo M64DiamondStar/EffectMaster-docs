@@ -102,5 +102,5 @@ EffectMaster is written in Kotlin, making API interactions more seamless and idi
 
 Please select one of the following guides to get started:
 
-* [Starting a Show](starting-a-show.md)
-* [Creating a Custom Effect](creating-a-custom-effect.md)
+* [Starting a Show](./developer-api/starting-a-show.md)
+* [Creating a Custom Effect](./developer-api/creating-a-custom-effect.md)
