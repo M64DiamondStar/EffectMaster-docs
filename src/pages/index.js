@@ -34,7 +34,7 @@ export default function Home() {
             description="The ultimate particle effect plugin for Minecraft servers.">
             <HomepageHeader/>
             <main>
-                <HomepageFeatures/>
+
             </main>
         </Layout>
     );
