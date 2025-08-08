@@ -237,6 +237,29 @@ const sidebars = {
 
 
     /*
+      WANDS
+    */
+    {
+      type: 'category',
+      label: 'Wands',
+      link: {type: 'doc', id: 'wands'},
+      customProps: {
+        icon: 'tabler:wand',
+      },
+      items: [
+        {
+          type: 'doc',
+          label: 'Path Wand',
+          id: 'wands/path-wand',
+          customProps: {
+            icon: 'lsicon:path-filled',
+          },
+        },
+      ],
+    },
+
+
+    /*
       PLUGIN INTEGRATIONS
     */
     {
@@ -251,21 +274,33 @@ const sidebars = {
           type: 'doc',
           label: 'Animatronics',
           id: 'plugin-integrations/animatronics',
+          customProps: {
+            icon: 'ri:walk-line',
+          },
         },
         {
           type: 'doc',
           label: 'ProtocolLib',
           id: 'plugin-integrations/protocollib',
+          customProps: {
+            icon: 'mdi:cube',
+          },
         },
         {
           type: 'doc',
           label: 'TrainCarts',
           id: 'plugin-integrations/traincarts',
+          customProps: {
+            icon: 'lucide:train-track',
+          },
         },
         {
           type: 'doc',
           label: 'WorldGuard',
           id: 'plugin-integrations/worldguard',
+          customProps: {
+            icon: 'material-symbols:shield-outline',
+          },
         },
       ],
     },
