@@ -19,6 +19,7 @@
     "@iconify/react": "^6.0.0",
     "@mdx-js/react": "^3.0.0",
     "clsx": "^2.0.0",
+    "dotenv": "^17.2.1",
     "gsap": "^3.13.0",
     "prism-react-renderer": "^2.3.0",
     "react": "^19.0.0",
