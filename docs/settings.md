@@ -3,6 +3,7 @@ description: EffectMaster's show settings
 hide_title: true
 ---
 
+import DocCardList from '@theme/DocCardList';
 
 <DocHeading
 icon="tabler:adjustments"
@@ -11,3 +12,5 @@ description="Settings you can adjust for each show to give it even more function
 </DocHeading>
 
 Please use the navigation bar on the left to navigate to the page you want.
+
+<DocCardList />

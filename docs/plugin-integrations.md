@@ -3,6 +3,7 @@ description: The plugins you can use to extend EffectMaster's functionality.
 hide_title: true
 ---
 
+import DocCardList from '@theme/DocCardList';
 
 <DocHeading
 icon="lucide:book-copy"
@@ -11,3 +12,4 @@ description="The plugins you can use to extend EffectMaster's functionality.">
 </DocHeading>
 
 Please use the navigation bar on the left to navigate to the page you want.
+<DocCardList />
