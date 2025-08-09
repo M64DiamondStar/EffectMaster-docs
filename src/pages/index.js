@@ -30,7 +30,7 @@ export default function Home() {
             title="EffectMaster Wiki"
             description="The ultimate particle effect plugin for Minecraft servers."
         >
-            <div className={styles.layoutLanding}>
+            <div className={styles.landingPage}>
                 <HomepageHeader/>
                 <main>
                     <HomepageFeatures/>
