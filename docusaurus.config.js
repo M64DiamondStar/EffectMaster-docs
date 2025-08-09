@@ -23,10 +23,6 @@ const config = {
                 docs: {
                     lastVersion: 'current',
                     versions: {
-                        current: {
-                            label: '1.5.0',
-                            path: '1.5.0',
-                        },
                     },
                     sidebarPath: './sidebars.js',
                     editUrl: 'https://github.com/M64DiamondStar/EffectMaster-docs/tree/master/',
