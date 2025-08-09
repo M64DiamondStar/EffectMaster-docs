@@ -1,7 +1,6 @@
 import {themes as prismThemes} from 'prism-react-renderer';
-import dotenv from 'dotenv';
 
-dotenv.config()
+require('dotenv').config()
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -22,6 +21,13 @@ const config = {
             'classic',
             ({
                 docs: {
+                    lastVersion: 'current',
+                    versions: {
+                        current: {
+                            label: '1.5.0',
+                            path: '1.5.0',
+                        },
+                    },
                     sidebarPath: './sidebars.js',
                     editUrl: 'https://github.com/M64DiamondStar/EffectMaster-docs/tree/master/',
                 },
@@ -44,7 +50,16 @@ const config = {
                     autoCollapseCategories: false,
                     hideable: true,
                 },
-                {href: 'https://github.com/M64DiamondStar/EffectMaster', label: 'GitHub', position: 'right'},
+                {
+                    href: 'https://github.com/M64DiamondStar/EffectMaster-docs/',
+                    label: 'GitHub',
+                    position: 'right'
+                },
+                {
+                    type: 'docsVersionDropdown',
+                    versions: ['current'],
+                    position: 'right'
+                },
             ],
         },
         algolia: {
