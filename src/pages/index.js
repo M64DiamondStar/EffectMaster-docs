@@ -1,23 +1,21 @@
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
 import styles from './index.module.css';
 
 function HomepageHeader() {
-    const {siteConfig} = useDocusaurusContext();
     return (
         <header className={clsx('hero hero--primary', styles.heroBanner)}>
             <div className="container">
-                <h1 className="hero__title">✨ {siteConfig.title}</h1>
-                <p className="hero__subtitle">{siteConfig.tagline}</p>
+                <h1 className={styles.heroTitle}>EffectMaster</h1>
+                <p className={styles.heroSubtitle}>Create beautiful visuals for your Minecraft Server</p>
                 <div className={styles.buttons}>
                     <Link className="button button--secondary button--lg" to="/docs/getting-started">
                         Get Started
                     </Link>
-                    <Link className="button button--primary button--lg" to="https://modrinth.com/plugin/effectmaster">
+                    <Link className="button button--secondary button--outline button--lg" to="https://modrinth.com/plugin/effectmaster">
                         Download
                     </Link>
                 </div>
@@ -27,15 +25,17 @@ function HomepageHeader() {
 }
 
 export default function Home() {
-    const {siteConfig} = useDocusaurusContext();
     return (
         <Layout
             title="EffectMaster Wiki"
-            description="The ultimate particle effect plugin for Minecraft servers.">
-            <HomepageHeader/>
-            <main>
-
-            </main>
+            description="The ultimate particle effect plugin for Minecraft servers."
+        >
+            <div className={styles.layoutLanding}>
+                <HomepageHeader/>
+                <main>
+                    <HomepageFeatures/>
+                </main>
+            </div>
         </Layout>
     );
 }

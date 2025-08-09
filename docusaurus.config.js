@@ -2,7 +2,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    title: 'EffectMaster Docs',
+    title: 'EffectMaster',
     tagline: 'Create beautiful visuals for your Minecraft Server',
     favicon: '/img/favicon.ico',
     future: {v4: true},
@@ -30,7 +30,7 @@ const config = {
     themeConfig: {
         image: 'img/effectmaster-social-card.png',
         navbar: {
-            title: 'EffectMaster Docs',
+            title: 'EffectMaster',
             logo: {alt: 'EffectMaster logo', src: 'img/logo.png'},
             items: [
                 {
@@ -46,7 +46,7 @@ const config = {
         },
         colorMode: {
             defaultMode: 'dark',
-            disableSwitch: false,
+            disableSwitch: true,
             respectPrefersColorScheme: false,
         },
         prism: {
