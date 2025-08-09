@@ -1,4 +1,7 @@
 import {themes as prismThemes} from 'prism-react-renderer';
+import dotenv from 'dotenv';
+
+dotenv.config()
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -43,6 +46,12 @@ const config = {
                 },
                 {href: 'https://github.com/M64DiamondStar/EffectMaster', label: 'GitHub', position: 'right'},
             ],
+        },
+        algolia: {
+            appId: process.env.APPLICATION_ID,
+            apiKey: process.env.SEARCH_API_KEY,
+            indexName: 'EffectMaster Documentation',
+
         },
         colorMode: {
             defaultMode: 'dark',
