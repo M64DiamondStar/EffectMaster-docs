@@ -1,12 +1,17 @@
 ---
 description: Fills a selected area with blocks, you can compare it with the /fill command.
+hide_title: true
 ---
 
-# Fill Block
+<DocHeading
+icon="fa6-solid:bucket"
+title="Fill Block"
+description="Sets all the blocks in a cubic area to the specified material.">
+</DocHeading>
 
 ## Parameters
 
-| Parameter        | Information                                                                                                                                                   | Example                |
+| Parameter        | Description                                                                                                                                                   | Example                |
 |------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------|
 | **FromLocation** | The first location, comparable with the first location of the [ /fill](https://minecraft.wiki/w/Commands/fill) command. Format: `world, x, y, z`.             | `world, 196, 64, -381` |
 | **ToLocation**   | The second location, comparable with the second location of the [ /fill](https://minecraft.wiki/w/Commands/fill) command. Format: `world, x, y, z`.           | `world, 215, 70, -390` |

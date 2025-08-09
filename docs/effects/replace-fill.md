@@ -1,10 +1,17 @@
 ---
 description: Replaces the chosen block with another block for a set amount of time.
+hide_title: true
 ---
 
-# Replace Fill
+<DocHeading
+icon="pepicons-pop:color-picker"
+title="Replace Fill"
+description="Replaces the chosen block with another in the selected area for a specified amount of time.">
+</DocHeading>
 
-| Parameter         | Information                                                                                                                                                                                          | Example                 |
+## Parameters
+
+| Parameter         | Description                                                                                                                                                                                          | Example                 |
 |-------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------|
 | **FromLocation**  | The first corner location of the area to replace blocks in, similar to the first position in the [Minecraft /fill command](https://minecraft.wiki/w/Commands/fill). Format: <br />`world, x, y, z`   | `world, 196, 64, -381`  |
 | **ToLocation**    | The second corner location of the area to replace blocks in, similar to the second position in the [Minecraft /fill command](https://minecraft.wiki/w/Commands/fill). Format: <br />`world, x, y, z` | `world, 196, 64, -381`  |

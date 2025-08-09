@@ -1,8 +1,13 @@
 ---
 description: Starts an Animatronic Group.
+hide_title: true
 ---
 
-# Animatronic Group
+<DocHeading
+icon="ic:sharp-people"
+title="Animatronic Group"
+description="Starts an Animatronic group from the Animatronics plugin">
+</DocHeading>
 
 :::caution Requires Plugin
 This effect requires
@@ -12,7 +17,7 @@ work.
 
 ## Parameters
 
-| Parameter  | Information                                                                    | Example   |
+| Parameter  | Description                                                                    | Example   |
 |------------|--------------------------------------------------------------------------------|-----------|
 | **Name**   | The name of the Animatronic group.                                             | `group-1` |
 | **Delay**  | The amount of ticks this effect waits after the show starts before activating. | `40`      |

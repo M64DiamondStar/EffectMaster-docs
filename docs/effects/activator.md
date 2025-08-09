@@ -1,16 +1,16 @@
 ---
 title: Activator
 description: Spawns a redstone torch at a given location for a (short) period of time.
+hide_title: true
 ---
 
-# Activator
+<DocHeading 
+    icon="line-md:switch" 
+    title="Activator" 
+    description="Spawns a temporary redstone torch at a specified location for a short period of time.">
+</DocHeading>
 
-The **Activator** effect spawns a temporary redstone torch at a specified location. This is often used to power redstone
-circuits or simulate activation.
-
----
-
-## 🧾 Parameters
+## Parameters
 
 | Parameter    | Description                                                        | Example                |
 |--------------|--------------------------------------------------------------------|------------------------|
@@ -18,9 +18,7 @@ circuits or simulate activation.
 | **Duration** | How long the redstone torch should stay in ticks.                  | `20`                   |
 | **Delay**    | How many ticks to wait before activating this effect.              | `40`                   |
 
----
-
-## 🛠️ YAML Preset
+## YAML Preset
 
 <details>
   <summary>Click to expand</summary>

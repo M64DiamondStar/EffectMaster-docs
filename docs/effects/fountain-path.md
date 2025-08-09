@@ -1,8 +1,13 @@
 ---
 description: Emits falling blocks like the Fountain effect, but follows a path.
+hide_title: true
 ---
 
-# Fountain Path
+<DocHeading
+icon="tabler:fountain-filled"
+title="Fountain Path"
+description="Emits falling blocks of which the base location follows a specified path.">
+</DocHeading>
 
 ## Parameters
 

@@ -1,9 +1,13 @@
 ---
 description: Emits falling blocks for a specific amount of time.
+hide_title: true
 ---
 
-# Fountain
-
+<DocHeading
+icon="mdi:fountain"
+title="Fountain"
+description="Emits falling blocks for a specified amount of time.">
+</DocHeading>
 ## Parameters
 
 | Parameter      | Description                                                                                                                                                        | Example                    |

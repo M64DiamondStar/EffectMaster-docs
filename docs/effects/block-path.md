@@ -1,12 +1,17 @@
 ---
 description: The same as the Fountain Path effect, but with solid blocks which will stay for a specific amount of time.
+hide_title: true
 ---
 
-# Block Path
+<DocHeading
+icon="icon-park-solid:block-one"
+title="Block Path"
+description="Spawns blocks following a path for a set period of time.">
+</DocHeading>
 
 ## Parameters
 
-| Parameters     | Information                                                                                                                                                                                                                           | Example                                                          |
+| Parameters     | Description                                                                                                                                                                                                                           | Example                                                          |
 |----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
 | **Path**       | The path the origin of the fountain follows using the format of `world, x1, y1, z1; x2, y2, z2; x3, y3, z3`. You can of course repeat this process as much as you would like. **Use a `;` to separate different locations**.          | `world, 196.3, 64, -381.8; 199.3, 65, -375.8; 205.8, 61, -361.8` |
 | **Block**      | The [block](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html) to use as falling block. Items will not work!                                                                                                          | `BLUE_STAINED_GLASS`                                             |

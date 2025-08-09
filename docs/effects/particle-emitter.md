@@ -1,10 +1,17 @@
 ---
 description: Emits particles during a set amount of time.
+hide_title: true
 ---
 
-# Particle Emitter
+<DocHeading
+icon="ph:sparkle-fill"
+title="Particle Emitter"
+description="Emits particles over a specified amount of time.">
+</DocHeading>
 
-| Parameter    | Information                                                                                                                                   | Example                    |
+## Parameters
+
+| Parameter    | Description                                                                                                                                   | Example                    |
 |--------------|-----------------------------------------------------------------------------------------------------------------------------------------------|----------------------------|
 | **Location** | The location of the particle in the format `world, x, y, z`.                                                                                  | `world, 196.3, 64, -381.8` |
 | **Particle** | The particle to spawn. See [Bukkit Particle List](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Particle.html) for available particles. | `FLAME`                    |

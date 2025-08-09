@@ -1,12 +1,17 @@
 ---
 description: Spawns a configurable falling block.
+hide_title: true
 ---
 
-# Falling Block
+<DocHeading
+icon="fluent:cube-quick-28-regular"
+title="Falling Block"
+description="Spawns a falling block with specified velocity.">
+</DocHeading>
 
 ## Parameters
 
-| Parameter     | Information                                                                                                                                   | Example                    |
+| Parameter     | Description                                                                                                                                   | Example                    |
 |---------------|-----------------------------------------------------------------------------------------------------------------------------------------------|----------------------------|
 | **Location**  | The location to spawn the falling block in the format of `world, x, y, z`.                                                                    | `world, 196.5, 64, -381.5` |
 | **Velocity**  | Sets the velocity of falling blocks to launch them in a specific direction. Values should not be too high (max around 10). Format: `x, y, z`. | `0.5, 1.3, 0`              |

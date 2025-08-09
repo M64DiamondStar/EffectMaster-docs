@@ -1,11 +1,16 @@
 ---
 description: Use the EffectMaster API to start a show!
+hide_title: true
 ---
+
+<DocHeading
+icon="lets-icons:on-button-fill"
+title="Starting a Show"
+description="Start EffectMaster shows with ease!">
+</DocHeading>
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
-
-# Starting a show
 
 <Tabs groupId="programming-language">
   <TabItem value="kotlin" label="Kotlin" default>

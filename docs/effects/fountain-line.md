@@ -1,12 +1,17 @@
 ---
 description: Emits falling blocks like the Fountain effect, but moves from one location straight to another.
+hide_title: true
 ---
 
-# Fountain Line
+<DocHeading
+icon="tabler:fountain"
+title="Fountain Line"
+description="Emits falling blocks of which the base location moves from one location to another.">
+</DocHeading>
 
 ## Parameters
 
-| Parameters       | Information                                                                                                                                                                                                                                                                      | Example                    |
+| Parameters       | Description                                                                                                                                                                                                                                                                      | Example                    |
 |------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------|
 | **FromLocation** | The start location of the fountain in the format `world, x, y, z`.                                                                                                                                                                                                               | `world, 196.3, 64, -381.8` |
 | **ToLocation**   | The location it moves towards in the format `world, x, y, z`.                                                                                                                                                                                                                    | `world, 201.3, 64, -381.8` |

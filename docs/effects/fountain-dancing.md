@@ -1,12 +1,17 @@
 ---
 description: A dancing fountain. This is almost the same as the Fountain effect, but you can change the velocity over time.
+hide_title: true
 ---
 
-# Fountain Dancing
+<DocHeading
+icon="typcn:waves-outline"
+title="Fountain Dancing"
+description="A dancing fountain of which you can change the velocity overtime.">
+</DocHeading>
 
 ## Parameters
 
-| Parameters      | Information                                                                                                                                                                                                                                                                                   | Example                                                                                                                   |
+| Parameters      | Description                                                                                                                                                                                                                                                                                   | Example                                                                                                                   |
 |-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
 | **Location**    | The origin of the fountain in the format `world, x, y, z`.                                                                                                                                                                                                                                    | `world, 196.3, 64, -381.8`                                                                                                |
 | **Sequencer**   | Edit the velocity of the fountain over time. Format: `ticks: width, height, depth`. Multiple values can be added separated by semicolons: `ticks1: width1, height1, depth1; ticks2: width2, height2, depth2; ...`. See the hint below for details on automatic values and changing materials. | `0: 0.0, 0.0, 0.0; 25: 0.0, 0.75, 0.0; 50: 0.3, 0.75, 0.0; 75: 0.0, 0.75, 0.0; 100: -0.3, 0.75, 0.0; 125: 0.0, 0.75, 0.0` |

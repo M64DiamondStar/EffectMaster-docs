@@ -1,10 +1,17 @@
 ---
 description: Moves particles from one location straight to another one.
+hide_title: true
 ---
 
-# Particle Line
+<DocHeading
+icon="fluent:sparkle-action-16-filled"
+title="Particle Line"
+description="Spawns particles following a line from one location straight to another.">
+</DocHeading>
 
-| Parameter        | Information                                                                                                                                                                                                                                                                                                                                       | Example                    |
+## Parameters
+
+| Parameter        | Description                                                                                                                                                                                                                                                                                                                                       | Example                    |
 |------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------|
 | **FromLocation** | The start location of the particles in the format `world, x, y, z`.                                                                                                                                                                                                                                                                               | `world, 196.3, 64, -381.8` |
 | **ToLocation**   | The end location of the particles in the format `world, x, y, z`.                                                                                                                                                                                                                                                                                 | `world, 199.3, 62, -388.8` |

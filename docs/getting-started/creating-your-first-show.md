@@ -1,12 +1,13 @@
 ---
-
 description: EffectMaster is a powerful plugin to create shows with—but how do you use it?
-
+hide_title: true
 ---
 
-# Creating Your First Show
-
-Welcome to the guide on how to create your very first show using **EffectMaster**!
+<DocHeading
+icon="ph:plant-fill"
+title="Creating your First Show"
+description="Create your very first show with the help of this short tutorial!">
+</DocHeading>
 
 ---
 

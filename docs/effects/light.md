@@ -1,10 +1,17 @@
 ---
 description: Spawns a light source for a set duration.
+hide_title: true
 ---
 
-# Light
+<DocHeading
+icon="mdi:lightbulb-on-20"
+title="Light"
+description="Spawns a light source for a set duration.">
+</DocHeading>
 
-| Parameter      | Information                                                                       | Example                |
+## Parameters
+
+| Parameter      | Description                                                                       | Example                |
 |----------------|-----------------------------------------------------------------------------------|------------------------|
 | **Location**   | The location where the light source should appear. Format: <br />`world, x, y, z` | `world, 196, 64, -381` |
 | **LightLevel** | The light level, this must be a value between `1` and `15`                        | `8`                    |

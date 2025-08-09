@@ -1,10 +1,17 @@
 ---
 description: Emits snow particles with spread over a specific time span.
+hide_title: true
 ---
 
-# Snow Launcher
+<DocHeading
+icon="mingcute:snow-line"
+title="Snow Launcher"
+description="Emits snow particles with spread over a specified timespan.">
+</DocHeading>
 
-| Parameter     | Information                                                                                        | Example                |
+## Parameters
+
+| Parameter     | Description                                                                                        | Example                |
 |---------------|----------------------------------------------------------------------------------------------------|------------------------|
 | **Location**  | The location where the snow particles will be emitted. Format: <br />`world, x, y, z`              | `world, 196, 64, -381` |
 | **Velocity**  | The direction and speed in which the snow particles are launched. Format: <br />`x, y, z`          | `0, 1, 0`              |

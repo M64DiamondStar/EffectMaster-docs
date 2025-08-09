@@ -1,12 +1,17 @@
 ---
 description: A beautiful fountain in the shape of a bloom.
+hide_title: true
 ---
 
-# Fountain Bloom
+<DocHeading
+icon="icon-park-outline:bloom"
+title="Fountain Bloom"
+description="A beautiful fountain in the shape of a bloom.">
+</DocHeading>
 
 ## Parameters
 
-| Parameters      | Information                                                                                                                                                                                                                                                               | Example                                    |
+| Parameters      | Description                                                                                                                                                                                                                                                               | Example                                    |
 |-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------|
 | **Location**    | The origin of the fountain in the format `world, x, y, z`.                                                                                                                                                                                                                | `world, 196.3, 64, -381.8`                 |
 | **Sequencer**   | Edit the velocity of the fountain over time. Format: `ticks: width, height`. Multiple values separated by semicolons: `ticks1: width1, height1; ticks2: width2, height2; ...`. See additional info below for advanced usage with automatic values and changing materials. | `0: 0.1, 0.8; 50: 0.6, 0.8; 100: 0.1, 0.8` |

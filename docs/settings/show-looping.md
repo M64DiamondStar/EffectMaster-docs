@@ -1,8 +1,13 @@
 ---
 description: Do you have a show you want to automatically start every x ticks? You can do that with show loops!
+hide_title: true
 ---
 
-# Show Looping
+<DocHeading
+icon="line-md:cog-loop"
+title="Show Looping"
+description="Do you have a show you want to run every x ticks? That's possible with show loops!">
+</DocHeading>
 
 ## How to Edit Show Looping
 

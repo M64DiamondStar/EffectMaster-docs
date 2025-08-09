@@ -1,8 +1,13 @@
 ---
 description: Play your shows at any location you want with the relative show options!
+hide_title: true
 ---
 
-# Relative Shows
+<DocHeading
+icon="line-md:my-location-loop"
+title="Relative Shows"
+description="Start the same show... at another location!">
+</DocHeading>
 
 ## Center Location Setting
 

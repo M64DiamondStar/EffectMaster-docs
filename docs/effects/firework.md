@@ -1,12 +1,17 @@
 ---
 description: Spawns a configurable firework.
+hide_title: true
 ---
 
-# Firework
+<DocHeading
+icon="streamline:fireworks-rocket"
+title="Firework"
+description="Spawns a customizable firework rocket.">
+</DocHeading>
 
 ## Parameters
 
-| Parameter          | Information                                                                                                                                                                                                  | Example                     |
+| Parameter          | Description                                                                                                                                                                                                  | Example                     |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------|
 | **Location**       | The location to spawn the firework in the format `world, x, y, z`.                                                                                                                                           | `world, 196.3, 64, -381.8`  |
 | **Velocity**       | Sets the velocity of the firework, used to launch it in a direction. If `ShotAtAngle` is `false`, it will eventually go upward automatically. Use `0, 0, 0` for a normal firework launch. Format: `x, y, z`. | `0.5, 1.3, 0`               |

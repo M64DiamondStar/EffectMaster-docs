@@ -1,10 +1,17 @@
 ---
 description: Spawns particles, comparable to the /particle command.
+hide_title: true
 ---
 
-# Particle
+<DocHeading
+icon="octicon:sparkle-fill-16"
+title="Particle"
+description="Spawns customizable particles, comparable to the /particle command.">
+</DocHeading>
 
-| Parameter    | Information                                                                                                                                           | Example                    |
+## Parameters
+
+| Parameter    | Description                                                                                                                                           | Example                    |
 |--------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------|
 | **Location** | The spawn location of the particle, in the format: <br />`world, x, y, z`                                                                             | `world, 196.3, 64, -381.8` |
 | **Particle** | The particle to spawn. See the [Bukkit Particle List](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Particle.html) for all available particles. | `CLOUD`                    |

@@ -1,12 +1,17 @@
 ---
 description: The same as the Fountain Line effect, but with dropped items instead of falling blocks.
+hide_title: true
 ---
 
-# Item Fountain Line
+<DocHeading
+icon="fa6-solid:cubes-stacked"
+title="Item Fountain Line"
+description="The same as the Fountain Line effect, but with dropped items instead.">
+</DocHeading>
 
 ## Parameters
 
-| Parameter           | Information                                                                                                                                                                               | Example                    |
+| Parameter           | Description                                                                                                                                                                               | Example                    |
 |---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------|
 | **FromLocation**    | The start location of the fountain in the format of `world, x, y, z`.                                                                                                                     | `world, 196.3, 64, -381.8` |
 | **ToLocation**      | The location it moves towards in the format of `world, x, y, z`.                                                                                                                          | `world, 201.3, 64, -381.8` |

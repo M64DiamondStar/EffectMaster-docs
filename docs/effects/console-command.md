@@ -1,12 +1,17 @@
 ---
 description: Runs a command from the console.
+hide_title: true
 ---
 
-# Console Command
+<DocHeading
+icon="heroicons:command-line"
+title="Console Command"
+description="Runs a command from the console.">
+</DocHeading>
 
 ## Parameters
 
-| Parameter     | Information                                                                        | Example                     |
+| Parameter     | Description                                                                        | Example                     |
 |---------------|------------------------------------------------------------------------------------|-----------------------------|
 | **Command**   | The command to execute WITHOUT a `/` in front of it.                               | `say EffectMaster is cool!` |
 | **Delay**     | The amount of ticks this effect waits after the show starts before its activation. | `40`                        |

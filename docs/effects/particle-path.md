@@ -1,10 +1,17 @@
 ---
 description: Moves particles over a specific path.
+hide_title: true
 ---
 
-# Particle Path
+<DocHeading
+icon="fluent:arrow-trending-sparkle-24-filled"
+title="Particle Path"
+description="Spawns particles following a specified path.">
+</DocHeading>
 
-| Parameter      | Information                                                                                                                                                                                                                                                       | Example                                                          |
+## Parameters
+
+| Parameter      | Description                                                                                                                                                                                                                                                       | Example                                                          |
 |----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
 | **Path**       | The path the particles follow using the format: <br />`world, x1, y1, z1; x2, y2, z2; x3, y3, z3`. <br />Use a semicolon (`;`) to separate different locations.                                                                                                   | `world, 196.3, 64, -381.8; 199.3, 65, -375.8; 205.8, 61, -361.8` |
 | **Particle**   | The particle to spawn. See the [Bukkit Particle List](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Particle.html) for all particles.                                                                                                                       | `FLAME`                                                          |

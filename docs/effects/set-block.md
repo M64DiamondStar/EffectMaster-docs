@@ -1,10 +1,17 @@
 ---
 description: Sets a block, comparable with the /setblock command.
+hide_title: true
 ---
 
-# Set Block
+<DocHeading
+icon="mdi:cube"
+title="Set Block"
+description="Sets a block on a location for a specified amount of time.">
+</DocHeading>
 
-| Parameter     | Information                                                                                                                                                 | Example                |
+## Parameters
+
+| Parameter     | Description                                                                                                                                                 | Example                |
 |---------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------|
 | **Location**  | The location of the block to set. Format: <br />`world, x, y, z`                                                                                            | `world, 196, 64, -381` |
 | **Block**     | The block material to set, must be a valid [Bukkit block material](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html). Items will not work. | `STONE`                |

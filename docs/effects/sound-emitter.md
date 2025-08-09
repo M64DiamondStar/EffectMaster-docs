@@ -1,10 +1,17 @@
 ---
-description: Emit sounds for a specific duration with an optional interval
+description: Emit sounds for a specific duration with an optional interval.
+hide_title: true
 ---
 
-# Sound Emitter
+<DocHeading
+icon="icon-park-outline:sound"
+title="Sound Emitter"
+description="Emits sounds over a specified duration with an optional interval.">
+</DocHeading>
 
-| Parameter       | Information                                                                                                                                                  | Example                        |
+## Parameters
+
+| Parameter       | Description                                                                                                                                                  | Example                        |
 |-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------|
 | **Location**    | The location to play the Sound Effect at. Format: <br />`world, x, y, z`                                                                                     | `world, 196.3, 64, -381.8`     |
 | **Selector**    | The selection of players who are able to hear the sound. The `@e` and `@s` selectors do NOT work.                                                            | `@a[distance..5]`              |

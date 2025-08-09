@@ -1,12 +1,16 @@
 ---
 description: Do you want to customize EffectMaster even more? Create your own effects!
+hide_title: true
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Creating a custom effect
-This is an example of how a custom effect is structured and registered.
+<DocHeading
+icon="fluent:sparkle-16-regular"
+title="Creating a Custom Effect"
+description="This is an example of how a custom effect is structured and registered.">
+</DocHeading>
 
 ## Effect Class
 

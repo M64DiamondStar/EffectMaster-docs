@@ -33,6 +33,9 @@ const sidebars = {
           type: 'doc',
           label: 'Creating Your First Show',
           id: 'getting-started/creating-your-first-show',
+          customProps: {
+            icon: 'ph:plant-fill',
+          },
         },
       ],
     },
@@ -52,147 +55,234 @@ const sidebars = {
         {
           type: 'doc',
           label: 'Activator',
-          id: 'effects/activator'
+          id: 'effects/activator',
+          customProps: {
+            icon: 'line-md:switch',
+          },
         },
         {
           type: 'doc',
           label: 'Animatronic',
-          id: 'effects/animatronic'
+          id: 'effects/animatronic',
+          customProps: {
+            icon: 'ri:walk-fill',
+          },
         },
         {
           type: 'doc',
           label: 'Animatronic Group',
-          id: 'effects/animatronic-group'
+          id: 'effects/animatronic-group',
+          customProps: {
+            icon: 'ic:sharp-people',
+          },
         },
         {
           type: 'doc',
           label: 'Block Line',
-          id: 'effects/block-line'
+          id: 'effects/block-line',
+          customProps: {
+            icon: 'icon-park-solid:block-five',
+          },
         },
         {
           type: 'doc',
           label: 'Block Path',
-          id: 'effects/block-path'
+          id: 'effects/block-path',
+          customProps: {
+            icon: 'icon-park-solid:block-one',
+          },
         },
         {
           type: 'doc',
           label: 'Console Command',
-          id: 'effects/console-command'
+          id: 'effects/console-command',
+          customProps: {
+            icon: 'heroicons:command-line',
+          },
         },
         {
           type: 'doc',
           label: 'Falling Block',
-          id: 'effects/falling-block'
+          id: 'effects/falling-block',
+          customProps: {
+            icon: 'fluent:cube-quick-28-regular',
+          },
         },
         {
           type: 'doc',
           label: 'Fill Block',
-          id: 'effects/fill-block'
+          id: 'effects/fill-block',
+          customProps: {
+            icon: 'fa6-solid:bucket',
+          },
         },
         {
           type: 'doc',
           label: 'Firework',
-          id: 'effects/firework'
+          id: 'effects/firework',
+          customProps: {
+            icon: 'streamline:fireworks-rocket',
+          },
         },
         {
           type: 'doc',
           label: 'Fountain',
-          id: 'effects/fountain'
+          id: 'effects/fountain',
+          customProps: {
+            icon: 'mdi:fountain',
+          },
         },
         {
           type: 'doc',
           label: 'Fountain Bloom',
-          id: 'effects/fountain-bloom'
+          id: 'effects/fountain-bloom',
+          customProps: {
+            icon: 'icon-park-outline:bloom',
+          },
         },
         {
           type: 'doc',
           label: 'Fountain Dancing',
-          id: 'effects/fountain-dancing'
+          id: 'effects/fountain-dancing',
+          customProps: {
+            icon: 'typcn:waves-outline',
+          },
         },
         {
           type: 'doc',
           label: 'Fountain Line',
-          id: 'effects/fountain-line'
+          id: 'effects/fountain-line',
+          customProps: {
+            icon: 'tabler:fountain',
+          },
         },
         {
           type: 'doc',
           label: 'Fountain Path',
-          id: 'effects/fountain-path'
+          id: 'effects/fountain-path',
+          customProps: {
+            icon: 'tabler:fountain-filled',
+          },
         },
         {
           type: 'doc',
           label: 'Item Fountain',
-          id: 'effects/item-fountain'
+          id: 'effects/item-fountain',
+          customProps: {
+            icon: 'hugeicons:ice-cubes',
+          },
         },
         {
           type: 'doc',
           label: 'Item Fountain Line',
-          id: 'effects/item-fountain-line'
+          id: 'effects/item-fountain-line',
+          customProps: {
+            icon: 'fa6-solid:cubes-stacked',
+          },
         },
         {
           type: 'doc',
           label: 'Item Fountain Path',
-          id: 'effects/item-fountain-path'
+          id: 'effects/item-fountain-path',
+          customProps: {
+            icon: 'fa7-solid:cubes-stacked',
+          },
         },
         {
           type: 'doc',
           label: 'Light',
-          id: 'effects/light'
+          id: 'effects/light',
+          customProps: {
+            icon: 'mdi:lightbulb-on-20',
+          },
         },
         {
           type: 'doc',
           label: 'Light Flicker',
-          id: 'effects/light-flicker'
+          id: 'effects/light-flicker',
+          customProps: {
+            icon: 'mdi:lightbulb-on-60',
+          },
         },
         {
           type: 'doc',
           label: 'Light Pulse',
-          id: 'effects/light-pulse'
+          id: 'effects/light-pulse',
+          customProps: {
+            icon: 'mdi:lightbulb-on',
+          },
         },
         {
           type: 'doc',
           label: 'Particle',
-          id: 'effects/particle'
+          id: 'effects/particle',
+          customProps: {
+            icon: 'octicon:sparkle-fill-16',
+          },
         },
         {
           type: 'doc',
           label: 'Particle Emitter',
-          id: 'effects/particle-emitter'
+          id: 'effects/particle-emitter',
+          customProps: {
+            icon: 'ph:sparkle-fill',
+          },
         },
         {
           type: 'doc',
           label: 'Particle Line',
-          id: 'effects/particle-line'
+          id: 'effects/particle-line',
+          customProps: {
+            icon: 'fluent:sparkle-action-16-filled',
+          },
         },
         {
           type: 'doc',
           label: 'Particle Path',
-          id: 'effects/particle-path'
+          id: 'effects/particle-path',
+          customProps: {
+            icon: 'fluent:arrow-trending-sparkle-24-filled',
+          },
         },
         {
           type: 'doc',
           label: 'Replace Fill',
-          id: 'effects/replace-fill'
+          id: 'effects/replace-fill',
+          customProps: {
+            icon: 'pepicons-pop:color-picker',
+          },
         },
         {
           type: 'doc',
           label: 'Set Block',
-          id: 'effects/set-block'
+          id: 'effects/set-block',
+          customProps: {
+            icon: 'mdi:cube',
+          },
         },
         {
           type: 'doc',
           label: 'Snow Launcher',
-          id: 'effects/snow-launcher'
+          id: 'effects/snow-launcher',
+          customProps: {
+            icon: 'mingcute:snow-line',
+          },
         },
         {
           type: 'doc',
           label: 'Sound Effect',
-          id: 'effects/sound-effect'
+          id: 'effects/sound-effect',
+          customProps: {
+            icon: 'lets-icons:sound-fill',
+          },
         },
         {
           type: 'doc',
           label: 'Sound Emitter',
-          id: 'effects/sound-emitter'
+          id: 'effects/sound-emitter',
+          customProps: {
+            icon: 'icon-park-outline:sound',
+          },
         },
       ]
     },
@@ -226,11 +316,17 @@ const sidebars = {
           type: 'doc',
           label: 'Show Looping',
           id: 'settings/show-looping',
+          customProps: {
+            icon: 'line-md:cog-loop',
+          },
         },
         {
           type: 'doc',
           label: 'Relative Shows',
           id: 'settings/relative-shows',
+          customProps: {
+            icon: 'line-md:my-location-loop',
+          },
         },
       ],
     },
@@ -347,11 +443,17 @@ const sidebars = {
           type: 'doc',
           label: 'Starting a Show',
           id: 'developer-api/starting-a-show',
+          customProps: {
+            icon: 'lets-icons:on-button-fill',
+          },
         },
         {
           type: 'doc',
           label: 'Creating a Custom Effect',
           id: 'developer-api/creating-a-custom-effect',
+          customProps: {
+            icon: 'fluent:sparkle-16-regular',
+          },
         },
       ],
     },

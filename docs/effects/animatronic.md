@@ -1,8 +1,13 @@
 ---
 description: Starts an Animatronic.
+hide_title: true
 ---
 
-# Animatronic
+<DocHeading
+icon="ri:walk-fill"
+title="Animatronic"
+description="Starts an Animatronic from the Animatronics plugin.">
+</DocHeading>
 
 :::warning
 Requires the [Animatronics](https://www.spigotmc.org/resources/animatronics-animate-armorstands-1-8-1-20-2.36518/)
@@ -11,7 +16,7 @@ plugin!
 
 ## Parameters
 
-| Parameter  | Information                                                                        | Example         |
+| Parameter  | Description                                                                        | Example         |
 |------------|------------------------------------------------------------------------------------|-----------------|
 | **Name**   | The name of the animatronic.                                                       | `animatronic-1` |
 | **Delay**  | The amount of ticks this effect waits after the show starts before its activation. | `40`            |

@@ -1,10 +1,17 @@
 ---
 description: Play a sound effect from a location or to a specific selection of players.
+hide_title: true
 ---
 
-# Sound Effect
+<DocHeading
+icon="lets-icons:sound-fill"
+title="Sound Effect"
+description="Plays a sound effect from a location or to a specified selection of players.">
+</DocHeading>
 
-| Parameter       | Information                                                                                                                                   | Example                        |
+## Parameters
+
+| Parameter       | Description                                                                                                                                   | Example                        |
 |-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------|
 | **Location**    | The location where the sound will be played. Format: <br />`world, x, y, z`                                                                   | `world, 196.3, 64, -381.8`     |
 | **Selector**    | The players who can hear the sound. Selectors like `@e` and `@s` do NOT work here.                                                            | `@a[distance..5]`              |

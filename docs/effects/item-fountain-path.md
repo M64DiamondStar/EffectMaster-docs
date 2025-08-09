@@ -1,8 +1,13 @@
 ---
 description: The same as the Fountain Path effect, but with dropped items instead of falling blocks.
+hide_title: true
 ---
 
-# Item Fountain Path
+<DocHeading
+icon="fa7-solid:cubes-stacked"
+title="Item Fountain Path"
+description="The same as the Fountain Path effect, but with dropped items instead.">
+</DocHeading>
 
 ## Parameters
 

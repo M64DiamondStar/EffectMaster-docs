@@ -1,16 +1,18 @@
 ---
 title: Block Line
 description: The same as the Fountain Line effect, but with solid blocks which will stay for a specific amount of time.
+hide_title: true
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
-# Block Line
+<DocHeading
+icon="icon-park-solid:block-five"
+title="Block Line"
+description="Animates a line of blocks from one location to another.">
+</DocHeading>
 
 ## Parameters
 
-| Parameter        | Information                                                                                                                  | Example                    |
+| Parameter        | Description                                                                                                                  | Example                    |
 |------------------|------------------------------------------------------------------------------------------------------------------------------|----------------------------|
 | **FromLocation** | The start location of the fountain in the format of `world, x, y, z`.                                                        | `world, 196.3, 64, -381.8` |
 | **ToLocation**   | The location it moves towards in the format of `world, x, y, z`.                                                             | `world, 201.3, 64, -381.8` |
