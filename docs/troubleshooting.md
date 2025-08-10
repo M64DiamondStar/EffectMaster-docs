@@ -9,17 +9,39 @@ hide_title: true
     description="Can't figure out why something isn't working? This page may have the solution!">
 </DocHeading>
 
-## My fountain isn't going to the right direction!
+## Before you start...
 
-First of all, check if your `Velocity` parameter is actually set correctly. If you've already verified that, then check
-if the location at which your effect spawns, isn't against another block. The hitbox of a falling block is always a full
-block, no matter which material you use.
+Before diving into specific fixes, go through this quick checklist — it might save you time:
 
-## "The value entered is not possible"
+1. **Check your server software build.**
+   You don’t need the latest Minecraft version, but make sure your server software (Paper, Spigot, Purpur, etc.) is
+   running the **latest build** for your version.
+2. **Review the documentation.**
+   Many issues come from a misunderstanding of how the plugin works. Skim through the relevant sections of the docs to
+   ensure you’re setting things up correctly.
 
-You may get this error when you're using specific mods or plugins (like a chat decoration plugin which modifies the
-player message). As an alternative, you can use the enter command: `/em enter <value....>`.
+---
 
-## Something else...
+## Common pitfalls
 
-Haven't found a solution here? Ask for support in our [Discord](https://discord.com/invite/Scv9afJwXp) server.
+### My fountain isn’t going in the right direction!
+
+* Make sure your `Velocity` parameter is set correctly.
+* If it is, check whether the effect’s spawn location is touching another block.
+  Keep in mind: the hitbox of a falling block is **always** a full block, regardless of the material.
+
+### "The value entered is not possible"
+
+* This often happens when certain mods or plugins (e.g., chat decoration plugins) modify the player’s message before it
+  reaches the plugin.
+* If this is the case, try using the **enter command** instead:
+
+  ```
+  /em enter <value...>
+  ```
+
+---
+
+Still stuck?
+Join our [Discord](https://discord.com/invite/Scv9afJwXp) server and ask for help — we’re happy to assist!
+
