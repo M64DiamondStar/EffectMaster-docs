@@ -14,6 +14,7 @@
   font-size: 5.5rem;
   margin: 0 0;
   line-height: 1.3;
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
 }
 
 .heroSubtitle {
@@ -24,6 +25,7 @@
   font-weight: 500;
   margin: 0 0;
   line-height: 1;
+  text-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
 }
 
 .heroBanner {
