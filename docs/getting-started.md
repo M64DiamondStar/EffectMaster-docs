@@ -35,11 +35,11 @@ To use EffectMaster, you’ll need:
 
 These plugins are not required, but unlock extra features:
 
-* [**TrainCarts**](https://modrinth.com/plugin/traincarts)
-  Trigger shows when a train passes over a sign.
-* [**Animatronics**](https://www.spigotmc.org/resources/animatronics-animate-armorstands-1-8-1-20-2.36518/)
+* [**Animatronics**](./plugin-integrations/animatronics.md)
   Add animated armor stand characters to your shows.
-* [**ProtocolLib**](https://www.spigotmc.org/resources/protocollib.1997/)
+* [**ProtocolLib**](./plugin-integrations/protocollib.md)
   Required to create **private shows** (only visible to specific players).
-* [**WorldGuard**](https://modrinth.com/plugin/worldguard)
+* [**TrainCarts**](./plugin-integrations/traincarts.md)
+  Trigger shows when a train passes over a sign.
+* [**WorldGuard**](./plugin-integrations/worldguard.md)
   Adds additional flags to start shows when entering or exiting regions.
