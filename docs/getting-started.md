@@ -16,7 +16,7 @@ description="This guide will walk you through setting up the plugin and creating
 
 To use EffectMaster, you’ll need:
 
-* A server running **Spigot**, **Paper**, **Folia**, or any fork of those.
+* A server running **Paper**, **Purpur**, **Folia**, or any fork of those.
 * **Minecraft version 1.20.5** or higher.
 
 ---
