@@ -63,16 +63,12 @@ mainhub welcome
 For delayed flags like `effectmaster-delay-enter`, use:
 
 ```
-
 <show_category> <show_name> <delay_ticks>
-
 ```
 
 **Example:**
 ```
-
 mainhub welcome 20
-
 ```
 
 > This plays the `mainhub:welcome` show **after 20 ticks (1 second)**.
