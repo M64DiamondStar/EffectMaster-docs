@@ -184,3 +184,11 @@ Renames a show to a new name.
 Opens the wiki in your browser.
 
 * **Permission**: `effectmaster.command.wiki`
+
+---
+
+### `/em version`
+
+Retrieves the current plugin version.
+
+* **Permission**: `effectmaster.command.version`
