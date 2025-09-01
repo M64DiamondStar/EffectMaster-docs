@@ -16,9 +16,7 @@ description="Emits particles over a specified amount of time.">
 | **Location** | The location of the particle in the format `world, x, y, z`.                                                                                  | `world, 196.3, 64, -381.8` |
 | **Particle** | The particle to spawn. See [Bukkit Particle List](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Particle.html) for available particles. | `FLAME`                    |
 | **Amount**   | The number of particles to spawn each tick.                                                                                                   | `200`                      |
-| **dX**       | The spread or delta along the X-axis where particles can spawn.                                                                               | `1`                        |
-| **dY**       | The spread or delta along the Y-axis where particles can spawn.                                                                               | `1`                        |
-| **dZ**       | The spread or delta along the Z-axis where particles can spawn.                                                                               | `1`                        |
+| **Delta**    | Spread along the X, Y and Z where the particles can randomly appear.                                                                          | `0, 0.5, 0.3`              |
 | **Force**    | If `true`, particles are visible to players regardless of distance (if in view).                                                              | `false`                    |
 | **Length**   | Duration of the effect in ticks.                                                                                                              | `40`                       |
 | **StartUp**  | Time in ticks it takes to reach the full amount of particles. Set to `0` to disable this gradual start.                                       | `20`                       |

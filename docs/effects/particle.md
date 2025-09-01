@@ -16,9 +16,7 @@ description="Spawns customizable particles, comparable to the /particle command.
 | **Location** | The spawn location of the particle, in the format: <br />`world, x, y, z`                                                                             | `world, 196.3, 64, -381.8` |
 | **Particle** | The particle to spawn. See the [Bukkit Particle List](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Particle.html) for all available particles. | `CLOUD`                    |
 | **Amount**   | Number of particles to spawn.                                                                                                                         | `50`                       |
-| **dX**       | Spread along the X-axis where the particles can randomly appear.                                                                                      | `1`                        |
-| **dY**       | Spread along the Y-axis where the particles can randomly appear.                                                                                      | `1`                        |
-| **dZ**       | Spread along the Z-axis where the particles can randomly appear.                                                                                      | `1`                        |
+| **Delta**    | Spread along the X, Y and Z where the particles can randomly appear.                                                                                  | `0, 0.5, 0.3`              |
 | **Force**    | If `true`, players will see the particle regardless of distance (if in their field of view).                                                          | `false`                    |
 | **Size**     | Size of the particle; works only for `REDSTONE`, `SPELL_MOB`, and `SPELL_MOB_AMBIENT`.                                                                | `1.0`                      |
 | **Color**    | RGB color of the particle, only for `REDSTONE`, `SPELL_MOB`, and `SPELL_MOB_AMBIENT`. Format: `R, G, B`.                                              | `123, 186, 92`             |
