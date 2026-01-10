@@ -31,6 +31,14 @@ Useful if your chat is blocked, intercepted by another plugin, or if you're buil
 
 ---
 
+### `/em delete <category> <name>`
+
+**Deletes an existing show** with the given category and name.
+
+* **Permission**: `effectmaster.command.delete`
+
+---
+
 ### `/em edit <category> <show>` *(subcommands)*
 
 Manages effects in a show. Includes creating, editing, and deleting effects.
