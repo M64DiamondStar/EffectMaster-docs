@@ -22,7 +22,7 @@ description="Create your very first show with the help of this short tutorial!">
 
 ## 🎬 Creating a Show
 
-### 🆕 Step 1: Create a New Show
+### Step 1: Create a New Show
 
 Use the following command to create your first show:
 
@@ -33,9 +33,8 @@ Use the following command to create your first show:
 * `<category>`: A group name for organizing your shows. This can be anything (e.g., `events`, `rides`, `holidays`).
 * `<name>`: The name of your individual show.
 
----
 
-### ✨ Step 2: Open the Editor & Add an Effect
+### Step 2: Open the Editor & Add an Effect
 
 Run:
 
@@ -46,9 +45,8 @@ Run:
 This opens the **in-game editor** for your show. Click on `New Effect` to begin. For this example, select the **Particle
 ** effect.
 
----
 
-### 🛠️ Step 3: Edit the Effect
+### Step 3: Edit the Effect
 
 After creating an effect, you'll return to the main editor. Your new effect will appear in the list with an **ID** next
 to it (this can be useful later).

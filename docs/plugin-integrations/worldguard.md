@@ -11,7 +11,7 @@ hide_title: true
 
 ---
 
-## ✅ Requirements
+## 🧱 Requirements
 
 To use WorldGuard support, you'll need the following plugins installed:
 
@@ -41,7 +41,7 @@ EffectMaster adds the following **custom WorldGuard flags**:
 
 ## 📝 Flag Syntax
 
-### 🎯 Instant Flags
+### Instant Flags
 
 For instant show flags like `effectmaster-enter`, use:
 
@@ -58,7 +58,7 @@ mainhub welcome
 
 ---
 
-### ⏱️ Delayed Flags
+### Delayed Flags
 
 For delayed flags like `effectmaster-delay-enter`, use:
 
