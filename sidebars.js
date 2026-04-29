@@ -150,6 +150,14 @@ const sidebars = {
                 },
                 {
                     type: 'doc',
+                    label: 'Fountain Fan',
+                    id: 'effects/fountain-fan',
+                    customProps: {
+                        icon: 'mingcute:fan-2-line',
+                    },
+                },
+                {
+                    type: 'doc',
                     label: 'Fountain Line',
                     id: 'effects/fountain-line',
                     customProps: {
