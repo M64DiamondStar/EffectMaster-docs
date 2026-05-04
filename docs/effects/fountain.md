@@ -1,4 +1,5 @@
 ---
+title: Fountain
 description: Emits falling blocks for a specific amount of time.
 hide_title: true
 ---

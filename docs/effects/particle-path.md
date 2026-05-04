@@ -1,4 +1,5 @@
 ---
+title: Particle Path
 description: Moves particles over a specific path.
 hide_title: true
 ---

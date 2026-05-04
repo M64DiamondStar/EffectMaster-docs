@@ -1,4 +1,5 @@
 ---
+title: Animatronic Group
 description: Starts an Animatronic Group.
 hide_title: true
 ---

@@ -1,4 +1,5 @@
 ---
+title: Particle Emitter
 description: Emits particles during a set amount of time.
 hide_title: true
 ---

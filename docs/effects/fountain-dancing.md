@@ -1,4 +1,5 @@
 ---
+title: Fountain Dancing
 description: A dancing fountain. This is almost the same as the Fountain effect, but you can change the velocity over time.
 hide_title: true
 ---

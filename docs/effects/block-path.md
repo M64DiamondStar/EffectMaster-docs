@@ -1,4 +1,5 @@
 ---
+title: Block Path
 description: The same as the Fountain Path effect, but with solid blocks which will stay for a specific amount of time.
 hide_title: true
 ---

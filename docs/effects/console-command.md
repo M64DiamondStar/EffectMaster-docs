@@ -1,4 +1,5 @@
 ---
+title: Console Command
 description: Runs a command from the console.
 hide_title: true
 ---

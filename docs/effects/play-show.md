@@ -1,4 +1,5 @@
 ---
+title: Play Show
 description: Plays a show from within a show.
 hide_title: true
 ---

@@ -1,4 +1,5 @@
 ---
+title: Fountain Bloom
 description: A beautiful fountain in the shape of a bloom.
 hide_title: true
 ---

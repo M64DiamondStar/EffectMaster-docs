@@ -1,4 +1,5 @@
 ---
+title: Particle
 description: Spawns particles, comparable to the /particle command.
 hide_title: true
 ---

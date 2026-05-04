@@ -1,4 +1,5 @@
 ---
+title: Item Fountain
 description: The same as the Fountain effect, but with dropped items instead of falling blocks.
 hide_title: true
 ---

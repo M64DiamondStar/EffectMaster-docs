@@ -1,4 +1,5 @@
 ---
+title: Particle Line
 description: Moves particles from one location straight to another one.
 hide_title: true
 ---

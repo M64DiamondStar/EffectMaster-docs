@@ -1,4 +1,5 @@
 ---
+title: Light Flicker
 description: Spawns a flickering light source for a set duration.
 hide_title: true
 ---

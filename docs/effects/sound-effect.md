@@ -1,4 +1,5 @@
 ---
+title: Sound Effect
 description: Play a sound effect from a location or to a specific selection of players.
 hide_title: true
 ---

@@ -1,4 +1,5 @@
 ---
+title: Fill Block
 description: Fills a selected area with blocks, you can compare it with the /fill command.
 hide_title: true
 ---

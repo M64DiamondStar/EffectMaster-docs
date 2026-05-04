@@ -1,4 +1,5 @@
 ---
+title: Snow Launcher
 description: Emits snow particles with spread over a specific time span.
 hide_title: true
 ---

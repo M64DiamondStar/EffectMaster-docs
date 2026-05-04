@@ -1,4 +1,5 @@
 ---
+title: Light Pulse
 description: Spawns a pulsing light source for a set duration.
 hide_title: true
 ---

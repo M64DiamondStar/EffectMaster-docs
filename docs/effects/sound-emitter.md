@@ -1,4 +1,5 @@
 ---
+title: Sound Emitter
 description: Emit sounds for a specific duration with an optional interval.
 hide_title: true
 ---

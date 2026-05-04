@@ -1,4 +1,5 @@
 ---
+title: Light
 description: Spawns a light source for a set duration.
 hide_title: true
 ---

@@ -1,4 +1,5 @@
 ---
+title: Falling Block
 description: Spawns a configurable falling block.
 hide_title: true
 ---

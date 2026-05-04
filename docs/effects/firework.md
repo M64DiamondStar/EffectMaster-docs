@@ -1,4 +1,5 @@
 ---
+title: Firework
 description: Spawns a configurable firework.
 hide_title: true
 ---

@@ -1,4 +1,5 @@
 ---
+title: Fountain Path
 description: Emits falling blocks like the Fountain effect, but follows a path.
 hide_title: true
 ---

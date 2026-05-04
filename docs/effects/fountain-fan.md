@@ -1,4 +1,5 @@
 ---
+title: Fountain Fan
 description: A fan-shaped fountain. Multiple jets are spread across a configurable arc, with full control over direction, rotation, and spread over time.
 hide_title: true
 ---

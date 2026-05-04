@@ -1,4 +1,5 @@
 ---
+title: Animatronic
 description: Starts an Animatronic.
 hide_title: true
 ---

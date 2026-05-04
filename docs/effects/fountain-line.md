@@ -1,4 +1,5 @@
 ---
+title: Fountain Line
 description: Emits falling blocks like the Fountain effect, but moves from one location straight to another.
 hide_title: true
 ---

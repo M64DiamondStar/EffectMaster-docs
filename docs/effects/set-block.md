@@ -1,4 +1,5 @@
 ---
+title: Set Block
 description: Sets a block, comparable with the /setblock command.
 hide_title: true
 ---
