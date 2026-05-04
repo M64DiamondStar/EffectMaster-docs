@@ -1,7 +1,7 @@
 
 # EffectMaster Docs
 
-Welcome to the official documentation repository for [**EffectMaster**](https://effectmaster.plugin.link) — a powerful Minecraft plugin for creating and managing in-game effects, shows, and more.
+Welcome to the official documentation repository for [**EffectMaster**](https://effectmaster.m64.dev) — a powerful Minecraft plugin for creating and managing in-game effects, shows, and more.
 
 This repository powers the EffectMaster documentation website, built with [Docusaurus](https://docusaurus.io/).
 
