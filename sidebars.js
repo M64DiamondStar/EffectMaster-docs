@@ -254,6 +254,14 @@ const sidebars = {
                 },
                 {
                     type: 'doc',
+                    label: 'Play Show',
+                    id: 'effects/play-show',
+                    customProps: {
+                        icon: 'heroicons:play',
+                    },
+                },
+                {
+                    type: 'doc',
                     label: 'Replace Fill',
                     id: 'effects/replace-fill',
                     customProps: {
