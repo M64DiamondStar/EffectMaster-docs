@@ -5,45 +5,47 @@ hide_title: true
 
 <DocHeading
 icon="heroicons:command-line"
-title="Effects"
+title="Commands"
 description="The list of EffectMaster's commands">
 </DocHeading>
 
 ---
 
-## 🧭 Commands
+## Commands
 
 ### `/em cancel`
 
-**Cancels the current effect editing session.**
+Cancels the current effect editing session.
 
 Useful if your chat is blocked, intercepted by another plugin, or if you're building a custom input system.
 
-* **Permission**: `effectmaster.command.cancel`
+**Permission:** `effectmaster.command.cancel`
 
 ---
 
 ### `/em create <category> <name>`
 
-**Creates a new show** with the given category and name.
+Creates a new show with the given category and name.
 
-* **Permission**: `effectmaster.command.create`
+**Permission:** `effectmaster.command.create`
 
 ---
 
 ### `/em delete <category> <name>`
 
-**Deletes an existing show** with the given category and name.
+Deletes an existing show with the given category and name.
 
-* **Permission**: `effectmaster.command.delete`
+**Permission:** `effectmaster.command.delete`
 
 ---
 
-### `/em edit <category> <show>` *(subcommands)*
+### `/em edit <category> <show>`
 
-Manages effects in a show. Includes creating, editing, and deleting effects.
+Manages effects within a show. Includes creating, editing, and deleting effects.
 
-#### ➕ Create an effect
+**Permission:** `effectmaster.command.edit`
+
+#### Create an effect
 
 ```bash
 /em edit <category> <show> create <effect type>
@@ -51,19 +53,15 @@ Manages effects in a show. Includes creating, editing, and deleting effects.
 
 Creates a new effect of the specified type.
 
-* **Permission**: `effectmaster.command.edit`
-
-#### ❌ Delete an effect
+#### Delete an effect
 
 ```bash
 /em edit <category> <show> delete <effect ID>
 ```
 
-Deletes an effect with the specified ID.
+Deletes the effect with the specified ID.
 
-* **Permission**: `effectmaster.command.edit`
-
-#### ✏️ Edit an effect
+#### Edit an effect
 
 ```bash
 /em edit <category> <show> edit <effect ID> <parameter> <value...>
@@ -71,73 +69,67 @@ Deletes an effect with the specified ID.
 
 Directly sets a parameter value for the specified effect.
 
-* **Permission**: `effectmaster.command.edit`
-
 ---
 
 ### `/em editor <category> <show> [id]`
 
-Opens the GUI editor for the specified show or effect.
+Opens the GUI editor for the specified show. Optionally, provide an effect `[id]` to open that effect directly.
 
-* **Optional**: `[id]` — open a specific effect directly.
-
-* **Permission**: `effectmaster.command.editor`
+**Permission:** `effectmaster.command.editor`
 
 ---
 
 ### `/em enter <value...>`
 
-Manually enters a value for a parameter during editing (for players without chat access or with custom editing systems).
+Manually enters a value for a parameter during an active editing session. Intended for players without chat access or
+with a custom editing system.
 
-* **Permission**: `effectmaster.command.enter`
+**Permission:** `effectmaster.command.enter`
 
 ---
 
 ### `/em help`
 
-Displays the plugin’s help page.
+Displays the plugin's help page.
 
-* **Permission**: `effectmaster.command.help`
+**Permission:** `effectmaster.command.help`
 
 ---
 
 ### `/em location`
 
-Returns various useful coordinates:
+Returns a set of useful coordinates:
 
-* Your current location.
+- Your current location.
+- A location 2 blocks above you.
+- Your block coordinates.
+- The block you are looking at.
 
-* A location 2 blocks above you.
-
-* Your block coordinates.
-
-* The block you’re looking at.
-
-* **Permission**: `effectmaster.command.location`
+**Permission:** `effectmaster.command.location`
 
 ---
 
-### `/em play <category> <show>` *(and variants)*
+### `/em play <category> <show>`
 
 Plays a show.
 
-* **Permission**: `effectmaster.command.play`
+**Permission:** `effectmaster.command.play`
 
-#### ▶️ Play from a specific effect
+#### Play from a specific effect
 
 ```bash
 /em play <category> <show> from <effect ID>
 ```
 
-Starts the show from a given effect ID.
+Starts the show from the given effect ID.
 
-#### 🎯 Play only a specific effect
+#### Play only a specific effect
 
 ```bash
 /em play <category> <show> only <effect ID>
 ```
 
-Plays only one effect from the show.
+Plays only the specified effect from the show.
 
 ---
 
@@ -145,15 +137,15 @@ Plays only one effect from the show.
 
 Plays a show privately for specific players using a selector (e.g. `@a[distance=..10]`).
 
-* **Permission**: `effectmaster.command.privateplay`
+**Permission:** `effectmaster.command.privateplay`
 
 ---
 
 ### `/em playat <category> <show> <world> <x> <y> <z>`
 
-Plays a show at a specific world location.
+Plays a show at a specific location in the world.
 
-* **Permission**: `effectmaster.command.playat`
+**Permission:** `effectmaster.command.playat`
 
 ---
 
@@ -161,11 +153,11 @@ Plays a show at a specific world location.
 
 Reloads the `config.yml`. Show configurations are reloaded automatically.
 
-* **Permission**: `effectmaster.command.reload`
+**Permission:** `effectmaster.command.reload`
 
 ---
 
-### `/em stop` *(and variants)*
+### `/em stop`
 
 Stops active shows.
 
@@ -175,15 +167,19 @@ Stops active shows.
 /em stop show <category> <show>
 ```
 
-* **Permission**: `effectmaster.command.reload`
+| Flag | Description |
+|--------|-------------|
+| `--deep` | Also stops all child shows started by this show, for example via the [Play Show](./effects/play-show.md) effect. |
+
+**Permission:** `effectmaster.command.stop`
 
 ---
 
 ### `/em rename <category> <show> <new name>`
 
-Renames a show to a new name.
+Renames a show to the given name.
 
-* **Permission**: `effectmaster.command.rename`
+**Permission:** `effectmaster.command.rename`
 
 ---
 
@@ -191,12 +187,12 @@ Renames a show to a new name.
 
 Opens the wiki in your browser.
 
-* **Permission**: `effectmaster.command.wiki`
+**Permission:** `effectmaster.command.wiki`
 
 ---
 
 ### `/em version`
 
-Retrieves the current plugin version.
+Displays the current plugin version.
 
-* **Permission**: `effectmaster.command.version`
+**Permission:** `effectmaster.command.version`
