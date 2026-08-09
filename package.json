@@ -14,8 +14,9 @@
     "write-heading-ids": "docusaurus write-heading-ids"
   },
   "dependencies": {
-    "@docusaurus/core": "3.8.1",
-    "@docusaurus/preset-classic": "3.8.1",
+    "@docusaurus/core": "^3.10.1",
+    "@docusaurus/faster": "^3.10.1",
+    "@docusaurus/preset-classic": "^3.10.1",
     "@iconify/react": "^6.0.0",
     "@mdx-js/react": "^3.0.0",
     "clsx": "^2.0.0",
@@ -23,10 +24,11 @@
     "gsap": "^3.13.0",
     "prism-react-renderer": "^2.3.0",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.15.0"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "3.8.1",
+    "@docusaurus/module-type-aliases": "^3.10.1",
     "@docusaurus/types": "3.8.1"
   },
   "browserslist": {
