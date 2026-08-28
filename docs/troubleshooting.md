@@ -22,7 +22,7 @@ hide_title: true
 #### Can the plugin do ...? / How to do ...?
 
 * The plugin can do a lot of things, but it cannot do everything. If you are looking for a specific feature, check the
-  [Effects](effects/index.md) page to see if it is supported. If it isn't, you can request it on our [Discord](https://discord.com/invite/Scv9afJwXp) server.
+  [Effects](./effects.md) page to see if it is supported. If it isn't, you can request it on our [Discord](https://discord.com/invite/Scv9afJwXp) server.
 
 #### My firework effect isn't always visible
 
@@ -43,6 +43,9 @@ hide_title: true
   ```
   /em enter <value...>
   ```
+  
+#### I accidentally placed a repeating command block playing the show over and over
+- You can [lock the show](./settings/show-locking.md) to prevent it from being played any longer.
 
 ---
 
