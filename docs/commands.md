@@ -187,7 +187,7 @@ Locks a show. See [show locking](./settings/show-locking.md).
 
 Unlocks a show. See [show locking](./settings/show-locking.md).
 
-**Permission:** `effectmaster.command.lock`
+**Permission:** `effectmaster.command.unlock`
 
 ---
 
@@ -196,6 +196,17 @@ Unlocks a show. See [show locking](./settings/show-locking.md).
 Renames a show to the given name.
 
 **Permission:** `effectmaster.command.rename`
+
+---
+
+### `/em debug [on/off/list/clear]`
+
+When debug mode is active for you, you will receive EffectMaster error messages in chat, saying where they come from. Useful when effects aren't working like they should.
+- Use `on/off` or just `/em debug` to toggle
+- Use `list` to see all reported errors
+- Use `clear` to clear the list of reported errors
+
+**Permission:** `effectmaster.command.debug`
 
 ---
 
