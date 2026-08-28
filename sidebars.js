@@ -518,20 +518,6 @@ const sidebars = {
             },
         },
 
-
-        /*
-          NEED A SERVER?
-        */
-        {
-            type: 'doc',
-            label: 'Need a server?',
-            id: 'need-a-server',
-            customProps: {
-                icon: 'solar:server-bold',
-            },
-        },
-
-
         /*
           EXTERNAL LINKS
         */
