@@ -354,6 +354,14 @@ const sidebars = {
                         icon: 'line-md:my-location-loop',
                     },
                 },
+                {
+                    type: 'doc',
+                    label: 'Show Locking',
+                    id: 'settings/show-locking',
+                    customProps: {
+                        icon: 'at-icons:lock',
+                    },
+                },
             ],
         },
 

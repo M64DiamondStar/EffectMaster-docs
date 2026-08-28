@@ -175,6 +175,22 @@ Stops active shows.
 
 ---
 
+### `/em lock <category> <show>`
+
+Locks a show. See [show locking](./settings/show-locking.md).
+
+**Permission:** `effectmaster.command.lock`
+
+---
+
+### `/em unlock <category> <show>`
+
+Unlocks a show. See [show locking](./settings/show-locking.md).
+
+**Permission:** `effectmaster.command.lock`
+
+---
+
 ### `/em rename <category> <show> <new name>`
 
 Renames a show to the given name.
